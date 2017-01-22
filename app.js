@@ -3,8 +3,6 @@ var app = express();// inicialixamos el objeto express
 
 app.set("view engine","jade");
 
-//Verbos Http => GET / POST /PUT/ PATCH/ HEADER /DELETE
-
 app.get("/",function(req,res) {
   res.render ("index");
 });
